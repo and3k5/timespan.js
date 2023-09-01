@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "ES2020",
+      "target": "ES2020",
+      "allowJs": false,
+      "checkJs": false,
+      "strict": true,
+      "strictNullChecks": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "moduleResolution": "node",
+      "exactOptionalPropertyTypes": true,
+      "lib": ["es2020"],
+      "types": ["mocha","chai"]
+    },
+    "compileOnSave": false,
+    "include": [ "src" ],
+    "exclude": [
+      "node_modules", "dist", ".parcel-cache"
+    ]
+  }
