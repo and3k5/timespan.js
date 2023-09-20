@@ -1,5 +1,6 @@
 import { msToSecond, msToMinute, msToHour, msToDay } from "../constants";
 import { type Duration } from "./duration";
+import { getUnitValue } from "./units";
 
 export abstract class Time implements Duration {
     getTime(): number {
@@ -27,7 +28,7 @@ export abstract class Time implements Duration {
     }
 
     protected _getDays(time: number) {
-        return Math.floor(time / msToDay);
+        return getUnitValue("day", time);
     }
 
     public getDays() {
@@ -35,8 +36,7 @@ export abstract class Time implements Duration {
     }
 
     protected _getHours(time: number) {
-        const daysMs = this._getDays(time) * msToDay;
-        return Math.floor((time - daysMs) / msToHour);
+        return getUnitValue("hour", time);
     }
 
     public getHours() {
@@ -44,9 +44,7 @@ export abstract class Time implements Duration {
     }
 
     protected _getMinutes(time: number) {
-        const daysMs = this._getDays(time) * msToDay;
-        const hoursMs = this._getHours(time) * msToHour;
-        return Math.floor((time - hoursMs - daysMs) / msToMinute);
+        return getUnitValue("minute", time);
     }
 
     public getMinutes() {
@@ -54,10 +52,7 @@ export abstract class Time implements Duration {
     }
 
     protected _getSeconds(time: number) {
-        const daysMs = this._getDays(time) * msToDay;
-        const hoursMs = this._getHours(time) * msToHour;
-        const minutesMs = this._getMinutes(time) * msToMinute;
-        return Math.floor((time - minutesMs - hoursMs - daysMs) / msToSecond);
+        return getUnitValue("second", time);
     }
 
     public getSeconds() {
@@ -65,11 +60,7 @@ export abstract class Time implements Duration {
     }
 
     protected _getMilliseconds(time: number) {
-        const daysMs = this._getDays(time) * msToDay;
-        const hoursMs = this._getHours(time) * msToHour;
-        const minutesMs = this._getMinutes(time) * msToMinute;
-        const secondsMs = this._getSeconds(time) * msToSecond;
-        return Math.floor(time - secondsMs - minutesMs - hoursMs - daysMs);
+        return getUnitValue("millisecond", time);
     }
 
     public getMilliseconds() {
