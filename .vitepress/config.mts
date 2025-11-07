@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     srcDir: "docs",
-
+    base: "/timespan.js/",
     title: "timespan.js",
     description: "Timespan / duration representation in js",
     themeConfig: {
