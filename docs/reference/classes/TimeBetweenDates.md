@@ -1,4 +1,4 @@
-Defined in: [implementations/time-between-dates.ts:3](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-between-dates.ts#L3)
+Defined in: [implementations/time-between-dates.ts:3](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-between-dates.ts#L3)
 
 ## Extends
 
@@ -12,7 +12,7 @@ Defined in: [implementations/time-between-dates.ts:3](https://github.com/and3k5/
 new TimeBetweenDates(a, b): TimeBetweenDates;
 ```
 
-Defined in: [implementations/time-between-dates.ts:6](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-between-dates.ts#L6)
+Defined in: [implementations/time-between-dates.ts:6](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-between-dates.ts#L6)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ TimeBetweenDatesBase.constructor;
 get fromDate(): Date;
 ```
 
-Defined in: [implementations/time-between-dates.ts:12](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-between-dates.ts#L12)
+Defined in: [implementations/time-between-dates.ts:12](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-between-dates.ts#L12)
 
 ##### Returns
 
@@ -56,7 +56,7 @@ Defined in: [implementations/time-between-dates.ts:12](https://github.com/and3k5
 set fromDate(a): void;
 ```
 
-Defined in: [implementations/time-between-dates.ts:16](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-between-dates.ts#L16)
+Defined in: [implementations/time-between-dates.ts:16](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-between-dates.ts#L16)
 
 ##### Parameters
 
@@ -84,7 +84,7 @@ TimeBetweenDatesBase.fromDate;
 get toDate(): Date;
 ```
 
-Defined in: [implementations/time-between-dates.ts:20](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-between-dates.ts#L20)
+Defined in: [implementations/time-between-dates.ts:20](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-between-dates.ts#L20)
 
 ##### Returns
 
@@ -96,7 +96,7 @@ Defined in: [implementations/time-between-dates.ts:20](https://github.com/and3k5
 set toDate(b): void;
 ```
 
-Defined in: [implementations/time-between-dates.ts:24](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-between-dates.ts#L24)
+Defined in: [implementations/time-between-dates.ts:24](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-between-dates.ts#L24)
 
 ##### Parameters
 
@@ -122,7 +122,7 @@ TimeBetweenDatesBase.toDate;
 protected _getDays(time): number;
 ```
 
-Defined in: [base/time.ts:30](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L30)
+Defined in: [base/time.ts:30](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L30)
 
 #### Parameters
 
@@ -148,7 +148,7 @@ TimeBetweenDatesBase._getDays;
 protected _getHours(time): number;
 ```
 
-Defined in: [base/time.ts:38](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L38)
+Defined in: [base/time.ts:38](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L38)
 
 #### Parameters
 
@@ -174,7 +174,7 @@ TimeBetweenDatesBase._getHours;
 protected _getMilliseconds(time): number;
 ```
 
-Defined in: [base/time.ts:62](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L62)
+Defined in: [base/time.ts:62](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L62)
 
 #### Parameters
 
@@ -200,7 +200,7 @@ TimeBetweenDatesBase._getMilliseconds;
 protected _getMinutes(time): number;
 ```
 
-Defined in: [base/time.ts:46](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L46)
+Defined in: [base/time.ts:46](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L46)
 
 #### Parameters
 
@@ -226,7 +226,7 @@ TimeBetweenDatesBase._getMinutes;
 protected _getSeconds(time): number;
 ```
 
-Defined in: [base/time.ts:54](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L54)
+Defined in: [base/time.ts:54](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L54)
 
 #### Parameters
 
@@ -252,7 +252,7 @@ TimeBetweenDatesBase._getSeconds;
 getAllTime(): object;
 ```
 
-Defined in: [base/time.ts:70](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L70)
+Defined in: [base/time.ts:70](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L70)
 
 #### Returns
 
@@ -302,7 +302,7 @@ TimeBetweenDatesBase.getAllTime;
 getDays(): number;
 ```
 
-Defined in: [base/time.ts:34](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L34)
+Defined in: [base/time.ts:34](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L34)
 
 #### Returns
 
@@ -322,7 +322,7 @@ TimeBetweenDatesBase.getDays;
 getHours(): number;
 ```
 
-Defined in: [base/time.ts:42](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L42)
+Defined in: [base/time.ts:42](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L42)
 
 #### Returns
 
@@ -342,7 +342,7 @@ TimeBetweenDatesBase.getHours;
 getMilliseconds(): number;
 ```
 
-Defined in: [base/time.ts:66](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L66)
+Defined in: [base/time.ts:66](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L66)
 
 #### Returns
 
@@ -362,7 +362,7 @@ TimeBetweenDatesBase.getMilliseconds;
 getMinutes(): number;
 ```
 
-Defined in: [base/time.ts:50](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L50)
+Defined in: [base/time.ts:50](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L50)
 
 #### Returns
 
@@ -382,7 +382,7 @@ TimeBetweenDatesBase.getMinutes;
 getSeconds(): number;
 ```
 
-Defined in: [base/time.ts:58](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L58)
+Defined in: [base/time.ts:58](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L58)
 
 #### Returns
 
@@ -402,7 +402,7 @@ TimeBetweenDatesBase.getSeconds;
 getTime(): number;
 ```
 
-Defined in: [base/time-between-dates-base.ts:12](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time-between-dates-base.ts#L12)
+Defined in: [base/time-between-dates-base.ts:12](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time-between-dates-base.ts#L12)
 
 #### Returns
 
@@ -422,7 +422,7 @@ TimeBetweenDatesBase.getTime;
 getTotalDays(): number;
 ```
 
-Defined in: [base/time.ts:26](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L26)
+Defined in: [base/time.ts:26](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L26)
 
 #### Returns
 
@@ -442,7 +442,7 @@ TimeBetweenDatesBase.getTotalDays;
 getTotalHours(): number;
 ```
 
-Defined in: [base/time.ts:22](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L22)
+Defined in: [base/time.ts:22](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L22)
 
 #### Returns
 
@@ -462,7 +462,7 @@ TimeBetweenDatesBase.getTotalHours;
 getTotalMilliseconds(): number;
 ```
 
-Defined in: [base/time.ts:10](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L10)
+Defined in: [base/time.ts:10](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L10)
 
 #### Returns
 
@@ -482,7 +482,7 @@ TimeBetweenDatesBase.getTotalMilliseconds;
 getTotalMinutes(): number;
 ```
 
-Defined in: [base/time.ts:18](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L18)
+Defined in: [base/time.ts:18](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L18)
 
 #### Returns
 
@@ -502,7 +502,7 @@ TimeBetweenDatesBase.getTotalMinutes;
 getTotalSeconds(): number;
 ```
 
-Defined in: [base/time.ts:14](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L14)
+Defined in: [base/time.ts:14](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L14)
 
 #### Returns
 

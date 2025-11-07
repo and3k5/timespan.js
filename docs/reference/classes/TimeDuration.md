@@ -1,4 +1,4 @@
-Defined in: [implementations/time-duration.ts:4](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L4)
+Defined in: [implementations/time-duration.ts:4](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L4)
 
 ## Extends
 
@@ -12,7 +12,7 @@ Defined in: [implementations/time-duration.ts:4](https://github.com/and3k5/times
 new TimeDuration(milliseconds): TimeDuration;
 ```
 
-Defined in: [implementations/time-duration.ts:6](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L6)
+Defined in: [implementations/time-duration.ts:6](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L6)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Time.constructor;
 protected _getDays(time): number;
 ```
 
-Defined in: [base/time.ts:30](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L30)
+Defined in: [base/time.ts:30](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L30)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Time._getDays;
 protected _getHours(time): number;
 ```
 
-Defined in: [base/time.ts:38](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L38)
+Defined in: [base/time.ts:38](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L38)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Time._getHours;
 protected _getMilliseconds(time): number;
 ```
 
-Defined in: [base/time.ts:62](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L62)
+Defined in: [base/time.ts:62](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L62)
 
 #### Parameters
 
@@ -116,7 +116,7 @@ Time._getMilliseconds;
 protected _getMinutes(time): number;
 ```
 
-Defined in: [base/time.ts:46](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L46)
+Defined in: [base/time.ts:46](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L46)
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Time._getMinutes;
 protected _getSeconds(time): number;
 ```
 
-Defined in: [base/time.ts:54](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L54)
+Defined in: [base/time.ts:54](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L54)
 
 #### Parameters
 
@@ -168,7 +168,7 @@ Time._getSeconds;
 getAllTime(): object;
 ```
 
-Defined in: [base/time.ts:70](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L70)
+Defined in: [base/time.ts:70](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L70)
 
 #### Returns
 
@@ -218,7 +218,7 @@ Time.getAllTime;
 getDays(): number;
 ```
 
-Defined in: [base/time.ts:34](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L34)
+Defined in: [base/time.ts:34](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L34)
 
 #### Returns
 
@@ -238,7 +238,7 @@ Time.getDays;
 getHours(): number;
 ```
 
-Defined in: [base/time.ts:42](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L42)
+Defined in: [base/time.ts:42](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L42)
 
 #### Returns
 
@@ -258,7 +258,7 @@ Time.getHours;
 getMilliseconds(): number;
 ```
 
-Defined in: [base/time.ts:66](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L66)
+Defined in: [base/time.ts:66](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L66)
 
 #### Returns
 
@@ -278,7 +278,7 @@ Time.getMilliseconds;
 getMinutes(): number;
 ```
 
-Defined in: [base/time.ts:50](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L50)
+Defined in: [base/time.ts:50](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L50)
 
 #### Returns
 
@@ -298,7 +298,7 @@ Time.getMinutes;
 getSeconds(): number;
 ```
 
-Defined in: [base/time.ts:58](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L58)
+Defined in: [base/time.ts:58](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L58)
 
 #### Returns
 
@@ -318,7 +318,7 @@ Time.getSeconds;
 getTime(): number;
 ```
 
-Defined in: [implementations/time-duration.ts:11](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L11)
+Defined in: [implementations/time-duration.ts:11](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L11)
 
 #### Returns
 
@@ -338,7 +338,7 @@ Time.getTime;
 getTotalDays(): number;
 ```
 
-Defined in: [base/time.ts:26](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L26)
+Defined in: [base/time.ts:26](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L26)
 
 #### Returns
 
@@ -358,7 +358,7 @@ Time.getTotalDays;
 getTotalHours(): number;
 ```
 
-Defined in: [base/time.ts:22](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L22)
+Defined in: [base/time.ts:22](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L22)
 
 #### Returns
 
@@ -378,7 +378,7 @@ Time.getTotalHours;
 getTotalMilliseconds(): number;
 ```
 
-Defined in: [base/time.ts:10](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L10)
+Defined in: [base/time.ts:10](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L10)
 
 #### Returns
 
@@ -398,7 +398,7 @@ Time.getTotalMilliseconds;
 getTotalMinutes(): number;
 ```
 
-Defined in: [base/time.ts:18](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L18)
+Defined in: [base/time.ts:18](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L18)
 
 #### Returns
 
@@ -418,7 +418,7 @@ Time.getTotalMinutes;
 getTotalSeconds(): number;
 ```
 
-Defined in: [base/time.ts:14](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/base/time.ts#L14)
+Defined in: [base/time.ts:14](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/base/time.ts#L14)
 
 #### Returns
 
@@ -438,7 +438,7 @@ Time.getTotalSeconds;
 setAllTime(obj, reset): number;
 ```
 
-Defined in: [implementations/time-duration.ts:83](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L83)
+Defined in: [implementations/time-duration.ts:83](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L83)
 
 #### Parameters
 
@@ -480,7 +480,7 @@ Defined in: [implementations/time-duration.ts:83](https://github.com/and3k5/time
 setDays(days): void;
 ```
 
-Defined in: [implementations/time-duration.ts:43](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L43)
+Defined in: [implementations/time-duration.ts:43](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L43)
 
 #### Parameters
 
@@ -500,7 +500,7 @@ Defined in: [implementations/time-duration.ts:43](https://github.com/and3k5/time
 setHours(hours): void;
 ```
 
-Defined in: [implementations/time-duration.ts:51](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L51)
+Defined in: [implementations/time-duration.ts:51](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L51)
 
 #### Parameters
 
@@ -520,7 +520,7 @@ Defined in: [implementations/time-duration.ts:51](https://github.com/and3k5/time
 setMilliseconds(milliseconds): void;
 ```
 
-Defined in: [implementations/time-duration.ts:79](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L79)
+Defined in: [implementations/time-duration.ts:79](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L79)
 
 #### Parameters
 
@@ -540,7 +540,7 @@ Defined in: [implementations/time-duration.ts:79](https://github.com/and3k5/time
 setMinutes(minutes): void;
 ```
 
-Defined in: [implementations/time-duration.ts:61](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L61)
+Defined in: [implementations/time-duration.ts:61](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L61)
 
 #### Parameters
 
@@ -560,7 +560,7 @@ Defined in: [implementations/time-duration.ts:61](https://github.com/and3k5/time
 setSeconds(seconds): void;
 ```
 
-Defined in: [implementations/time-duration.ts:71](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L71)
+Defined in: [implementations/time-duration.ts:71](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L71)
 
 #### Parameters
 
@@ -580,7 +580,7 @@ Defined in: [implementations/time-duration.ts:71](https://github.com/and3k5/time
 setTotalDays(days): void;
 ```
 
-Defined in: [implementations/time-duration.ts:35](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L35)
+Defined in: [implementations/time-duration.ts:35](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L35)
 
 #### Parameters
 
@@ -600,7 +600,7 @@ Defined in: [implementations/time-duration.ts:35](https://github.com/and3k5/time
 setTotalHours(hours): void;
 ```
 
-Defined in: [implementations/time-duration.ts:31](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L31)
+Defined in: [implementations/time-duration.ts:31](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L31)
 
 #### Parameters
 
@@ -620,7 +620,7 @@ Defined in: [implementations/time-duration.ts:31](https://github.com/and3k5/time
 setTotalMilliseconds(ms): void;
 ```
 
-Defined in: [implementations/time-duration.ts:19](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L19)
+Defined in: [implementations/time-duration.ts:19](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L19)
 
 #### Parameters
 
@@ -640,7 +640,7 @@ Defined in: [implementations/time-duration.ts:19](https://github.com/and3k5/time
 setTotalMinutes(mins): void;
 ```
 
-Defined in: [implementations/time-duration.ts:27](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L27)
+Defined in: [implementations/time-duration.ts:27](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L27)
 
 #### Parameters
 
@@ -660,7 +660,7 @@ Defined in: [implementations/time-duration.ts:27](https://github.com/and3k5/time
 setTotalSeconds(secs): void;
 ```
 
-Defined in: [implementations/time-duration.ts:23](https://github.com/and3k5/timespan.js/blob/d46ec71a8267dcc5b869467ba5bd26748806811f/src/implementations/time-duration.ts#L23)
+Defined in: [implementations/time-duration.ts:23](https://github.com/and3k5/timespan.js/blob/6a5b3abdd23f060244360af2e30fdeafac7d3264/src/implementations/time-duration.ts#L23)
 
 #### Parameters
 
