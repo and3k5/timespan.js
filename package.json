@@ -22,7 +22,11 @@
         "format": "npx prettier --write .",
         "type-check": "npx run-s type-check:*",
         "type-check:browser": "npx tsc --project ./tsconfig.browser.json --noEmit --skipLibCheck",
-        "type-check:node": "npx tsc --project ./tsconfig.node.json --noEmit --skipLibCheck"
+        "type-check:node": "npx tsc --project ./tsconfig.node.json --noEmit --skipLibCheck",
+        "docs:ref": "npx typedoc --options typedoc.json",
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
     },
     "files": [
         "dist/*",
@@ -53,10 +57,13 @@
         "jiti": "^2.6.1",
         "npm-run-all2": "^8.0.4",
         "prettier": "^3.6.2",
+        "typedoc": "^0.28.14",
+        "typedoc-plugin-markdown": "^4.9.0",
         "typescript": "^5.9.3",
         "typescript-eslint": "^8.46.3",
         "vite": "^7.2.2",
         "vite-plugin-dts": "^4.5.4",
+        "vitepress": "^2.0.0-alpha.12",
         "vitest": "^4.0.8"
     },
     "engines": {
