@@ -1,5 +1,5 @@
-const { expect } = require("chai");
-const { TimeBetweenDates } = require("../../dist");
+import { expect, describe, it } from "vitest";
+import { TimeBetweenDates } from "../time-between-dates";
 
 describe("TimeBetweenDates", () => {
     const d1 = new Date("2015-04-05T13:24:45.4120000Z");
@@ -8,11 +8,17 @@ describe("TimeBetweenDates", () => {
     const time = new TimeBetweenDates(d1, d2);
 
     it("calculates total units properly", () => {
-        expect(time.getTotalDays()).equals(1739.838579502314848, "total days");
+        expect(time.getTotalDays()).equals(1739.8385795023148, "total days");
         expect(time.getTotalHours()).equals(41756.125908055554, "total hours");
-        expect(time.getTotalMinutes()).equals(2505367.554483333, "total minutes");
+        expect(time.getTotalMinutes()).equals(
+            2505367.554483333,
+            "total minutes",
+        );
         expect(time.getTotalSeconds()).equals(150322053.269, "total seconds");
-        expect(time.getTotalMilliseconds()).equals(150322053269, "total milliseconds");
+        expect(time.getTotalMilliseconds()).equals(
+            150322053269,
+            "total milliseconds",
+        );
     });
 
     it("calculates allTime object properly", () => {
@@ -32,5 +38,4 @@ describe("TimeBetweenDates", () => {
         expect(time.getSeconds()).equals(33, "seconds");
         expect(time.getMilliseconds()).equals(269, "milliseconds");
     });
-
-})
+});

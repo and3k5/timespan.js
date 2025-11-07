@@ -1,5 +1,5 @@
-const { expect } = require("chai");
-const { TimeDuration } = require("../../dist");
+import { expect, describe, it, beforeEach } from "vitest";
+import { TimeDuration } from "../time-duration";
 
 describe("TimeDuration", () => {
     describe("positive values", () => {
@@ -10,11 +10,26 @@ describe("TimeDuration", () => {
         });
 
         it("calculates total units properly", () => {
-            expect(time.getTotalDays()).equals(1739.838579502314848, "total days");
-            expect(time.getTotalHours()).equals(41756.125908055554, "total hours");
-            expect(time.getTotalMinutes()).equals(2505367.554483333, "total minutes");
-            expect(time.getTotalSeconds()).equals(150322053.269, "total seconds");
-            expect(time.getTotalMilliseconds()).equals(150322053269, "total milliseconds");
+            expect(time.getTotalDays()).equals(
+                1739.8385795023148,
+                "total days",
+            );
+            expect(time.getTotalHours()).equals(
+                41756.125908055554,
+                "total hours",
+            );
+            expect(time.getTotalMinutes()).equals(
+                2505367.554483333,
+                "total minutes",
+            );
+            expect(time.getTotalSeconds()).equals(
+                150322053.269,
+                "total seconds",
+            );
+            expect(time.getTotalMilliseconds()).equals(
+                150322053269,
+                "total milliseconds",
+            );
         });
 
         it("calculates allTime object properly", () => {
@@ -43,14 +58,28 @@ describe("TimeDuration", () => {
                     expect(time.getDays()).equals(1738);
                 });
 
-
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(1738.8385795023148, "total days");
-                    expect(time.getTotalHours()).equals(41732.125908055554, "total hours");
-                    expect(time.getTotalMinutes()).equals(2503927.5544833333, "total minutes");
-                    expect(time.getTotalSeconds()).equals(150235653.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(150235653269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        1738.8385795023148,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        41732.125908055554,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        2503927.554483333,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        150235653.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        150235653269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(1738, "days");
@@ -79,12 +108,27 @@ describe("TimeDuration", () => {
                 });
 
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(1739.796912835648, "total days");
-                    expect(time.getTotalHours()).equals(41755.125908055554, "total hours");
-                    expect(time.getTotalMinutes()).equals(2505307.554483333, "total minutes");
-                    expect(time.getTotalSeconds()).equals(150318453.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(150318453269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        1739.796912835648,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        41755.125908055554,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        2505307.554483333,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        150318453.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        150318453269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(1739, "days");
@@ -113,12 +157,27 @@ describe("TimeDuration", () => {
                 });
 
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(1739.8378850578704, "total days");
-                    expect(time.getTotalHours()).equals(41756.10924138889, "total hours");
-                    expect(time.getTotalMinutes()).equals(2505366.554483333, "total minutes");
-                    expect(time.getTotalSeconds()).equals(150321993.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(150321993269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        1739.8378850578704,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        41756.10924138889,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        2505366.554483333,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        150321993.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        150321993269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(1739, "days");
@@ -146,14 +205,28 @@ describe("TimeDuration", () => {
                     expect(time.getSeconds()).equals(32);
                 });
 
-
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(1739.8385679282408, "total days");
-                    expect(time.getTotalHours()).equals(41756.12563027778, "total hours");
-                    expect(time.getTotalMinutes()).equals(2505367.5378166665, "total minutes");
-                    expect(time.getTotalSeconds()).equals(150322052.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(150322052269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        1739.8385679282408,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        41756.12563027778,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        2505367.5378166665,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        150322052.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        150322052269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(1739, "days");
@@ -174,7 +247,6 @@ describe("TimeDuration", () => {
                 });
             });
         });
-
     });
 
     describe("negative values", () => {
@@ -185,11 +257,26 @@ describe("TimeDuration", () => {
         });
 
         it("calculates total units properly", () => {
-            expect(time.getTotalDays()).equals(-1739.838579502314848, "total days");
-            expect(time.getTotalHours()).equals(-41756.125908055554, "total hours");
-            expect(time.getTotalMinutes()).equals(-2505367.554483333, "total minutes");
-            expect(time.getTotalSeconds()).equals(-150322053.269, "total seconds");
-            expect(time.getTotalMilliseconds()).equals(-150322053269, "total milliseconds");
+            expect(time.getTotalDays()).equals(
+                -1739.8385795023148,
+                "total days",
+            );
+            expect(time.getTotalHours()).equals(
+                -41756.125908055554,
+                "total hours",
+            );
+            expect(time.getTotalMinutes()).equals(
+                -2505367.554483333,
+                "total minutes",
+            );
+            expect(time.getTotalSeconds()).equals(
+                -150322053.269,
+                "total seconds",
+            );
+            expect(time.getTotalMilliseconds()).equals(
+                -150322053269,
+                "total milliseconds",
+            );
         });
 
         it("calculates allTime object properly", () => {
@@ -218,14 +305,28 @@ describe("TimeDuration", () => {
                     expect(time.getDays()).equals(-1738);
                 });
 
-
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(-1738.8385795023148, "total days");
-                    expect(time.getTotalHours()).equals(-41732.125908055554, "total hours");
-                    expect(time.getTotalMinutes()).equals(-2503927.5544833333, "total minutes");
-                    expect(time.getTotalSeconds()).equals(-150235653.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(-150235653269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        -1738.8385795023148,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        -41732.125908055554,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        -2503927.554483333,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        -150235653.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        -150235653269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(-1738, "days");
@@ -254,12 +355,27 @@ describe("TimeDuration", () => {
                 });
 
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(-1739.796912835648, "total days");
-                    expect(time.getTotalHours()).equals(-41755.125908055554, "total hours");
-                    expect(time.getTotalMinutes()).equals(-2505307.554483333, "total minutes");
-                    expect(time.getTotalSeconds()).equals(-150318453.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(-150318453269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        -1739.796912835648,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        -41755.125908055554,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        -2505307.554483333,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        -150318453.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        -150318453269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(-1739, "days");
@@ -288,12 +404,27 @@ describe("TimeDuration", () => {
                 });
 
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(-1739.8378850578704, "total days");
-                    expect(time.getTotalHours()).equals(-41756.10924138889, "total hours");
-                    expect(time.getTotalMinutes()).equals(-2505366.554483333, "total minutes");
-                    expect(time.getTotalSeconds()).equals(-150321993.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(-150321993269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        -1739.8378850578704,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        -41756.10924138889,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        -2505366.554483333,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        -150321993.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        -150321993269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(-1739, "days");
@@ -321,14 +452,28 @@ describe("TimeDuration", () => {
                     expect(time.getSeconds()).equals(-32);
                 });
 
-
                 it("and returns total units properly", function () {
-                    expect(time.getTotalDays()).equals(-1739.8385679282408, "total days");
-                    expect(time.getTotalHours()).equals(-41756.12563027778, "total hours");
-                    expect(time.getTotalMinutes()).equals(-2505367.5378166665, "total minutes");
-                    expect(time.getTotalSeconds()).equals(-150322052.269, "total seconds");
-                    expect(time.getTotalMilliseconds()).equals(-150322052269, "total milliseconds");
-                })
+                    expect(time.getTotalDays()).equals(
+                        -1739.8385679282408,
+                        "total days",
+                    );
+                    expect(time.getTotalHours()).equals(
+                        -41756.12563027778,
+                        "total hours",
+                    );
+                    expect(time.getTotalMinutes()).equals(
+                        -2505367.5378166665,
+                        "total minutes",
+                    );
+                    expect(time.getTotalSeconds()).equals(
+                        -150322052.269,
+                        "total seconds",
+                    );
+                    expect(time.getTotalMilliseconds()).equals(
+                        -150322052269,
+                        "total milliseconds",
+                    );
+                });
 
                 it("calculates units properly", () => {
                     expect(time.getDays()).equals(-1739, "days");
@@ -349,7 +494,5 @@ describe("TimeDuration", () => {
                 });
             });
         });
-
     });
-
-})
+});
